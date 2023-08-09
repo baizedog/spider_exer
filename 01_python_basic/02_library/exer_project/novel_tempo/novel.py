@@ -7,8 +7,6 @@ table_url = 'https://www.beqege.cc/55869/'
 base_url = 'https://www.beqege.cc/'
 headers = {
       'User-Agent': '',
-      'Cookie': 'cf_clearance=VWL9U0de8nc1P6H965qvqGJCpohFbEJ3n2E7Nhdzw7w-1691542059-0-1-7d988eb8.'
-                'dec96c3b.921f17c7-0.2.1691542059',
       'Referer': 'https://cn.bing.com/'
 }
 
@@ -56,7 +54,13 @@ UA = ["Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1",
 
 headers["User-Agent"] = random.choice(UA)
 
-response_1 = requests.get(table_url, headers=headers)
+cookies = {
+      'cf_clearance': '0Y25O94UlPpGvJWiJL4a38Q2yIZO2Cm_p8PPU2q0sI0-1691542071-0-1-7d988eb8'
+                      '.dec96c3b.921f17c7-0.2.1691542071'
+}
+
+
+response_1 = requests.get(table_url, headers=headers, cookies=cookies)
 # response_1 = requests.get(table_url)
 response_1.encoding = response_1.apparent_encoding
 # 有简单的反爬
@@ -66,12 +70,12 @@ print(response_1.status_code)
 # <dd><a href="/55869/744921.html">1、Chapter 1</a></dd>
 
 # 前面 .表示任意字符 *表示这个任意字符重复任意次
-regex = "<dd><a href='(.*)'>"
+# regex = "<dd><a href='(.*)'>"
 # 获取html标签列表
-chapter_html_list = re.findall(regex, response_1.text)
+# chapter_html_list = re.findall(regex, response_1.text)
 # 存储章节url
-chapter_url_list = []
-for i in chapter_html_list:
-    url = base_url + i
-    chapter_url_list.append(url)
+# chapter_url_list = []
+# for i in chapter_html_list:
+#     url = base_url + i
+#     chapter_url_list.append(url)
 # print(chapter_url_list[0])
