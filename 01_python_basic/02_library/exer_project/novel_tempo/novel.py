@@ -6,7 +6,10 @@ import time
 table_url = 'https://www.beqege.cc/55869/'
 base_url = 'https://www.beqege.cc/'
 headers = {
-    "User-Agent": '',
+      'User-Agent': '',
+      'Cookie': 'cf_clearance=VWL9U0de8nc1P6H965qvqGJCpohFbEJ3n2E7Nhdzw7w-1691542059-0-1-7d988eb8.'
+                'dec96c3b.921f17c7-0.2.1691542059',
+      'Referer': 'https://cn.bing.com/'
 }
 
 # 重写user-agent 增加随机性
@@ -45,8 +48,10 @@ UA = ["Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1",
       "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0",
       "Mozilla/5.0 (X11; U; Linux Core i7-4980HQ; de; rv:32.0; compatible; JobboerseBot; Gecko/20100101 Firefox/38.0",
       "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0",
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.50",
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188"
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96"
+      " Safari/537.36 Edg/88.0.705.50",
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 "
+      "Edg/115.0.1901.188"
       ]
 
 headers["User-Agent"] = random.choice(UA)
