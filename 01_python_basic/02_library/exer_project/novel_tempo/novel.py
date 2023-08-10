@@ -2,13 +2,37 @@ import random
 import requests
 import re
 import time
+import bs4
 
-table_url = 'https://www.beqege.cc/55869/'
+# 更换了url
+table_url = 'https://www.biqu789.com/226/226104/73073228.html'
+# table_url = 'https://www.biqu789.com/226/226104/'
 base_url = 'https://www.beqege.cc/'
+# headers = {
+#       'User-Agent': '',
+#       'Referer': 'https://cn.bing.com/',
+#       # 'Sec-Ch-Ua': "'Not/A)Brand';v='99', 'Microsoft Edge';v='115', 'Chromium';v='115'",
+#       'Sec-Ch-Ua': '"Not/A)Brand";v="99", "Microsoft Edge";v="115", "Chromium";v="115"',
+#       'Sec-Ch-Ua-Mobile': '?0',
+#       'Sec-Ch-Ua-Platform': '"Windows"',
+#       'Sec-Fetch-Dest': 'document',
+#       'Sec-Fetch-Mode': 'navigate',
+#       'Sec-Fetch-Site': 'cross-site',
+#       'Sec-Fetch-User': '?1',
+#       'Upgrade-Insecure-Requests': '1'
+# }
+
 headers = {
-      'User-Agent': '',
-      'Referer': 'https://cn.bing.com/'
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "Accept-Language": "zh-CN,zh;q=0.9",
+    "Cache-Control": "no-cache",
+    "Connection": "keep-alive",
+    "Pragma": "no-cache",
+    "Referer": "https://www.beqege.com/",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36"
 }
+
 
 # 重写user-agent 增加随机性
 UA = ["Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1",
@@ -63,8 +87,11 @@ cookies = {
 response_1 = requests.get(table_url, headers=headers, cookies=cookies)
 # response_1 = requests.get(table_url)
 response_1.encoding = response_1.apparent_encoding
+soup = bs4.BeautifulSoup(response_1.content, "html.parser")
+# print(soup.select("#content"))
+print(response_1.text)
 # 有简单的反爬
-print(response_1.request.headers)
+# print(response_1.request.headers)
 print(response_1.status_code)
 # 每一个章节的链接
 # <dd><a href="/55869/744921.html">1、Chapter 1</a></dd>
