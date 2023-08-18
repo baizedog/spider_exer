@@ -1,0 +1,31 @@
+drug_name,drug_id,drug_code
+All MeSH Categories,0
+"Analytical, Diagnostic and Therapeutic Techniques and Equipment Category",E
+Anatomy Category,A
+"Anthropology, Education, Sociology and Social Phenomena Category",I
+Check Tags Category,X
+Chemicals and Drugs Category,D
+Disciplines and Occupations Category,H
+Diseases Category,C
+Geographical Locations Category,Z
+Health Care Category,N
+Humanities Category,K
+Information Science Category,L
+Organisms Category,B
+Persons Category,M
+Pharmacological Actions Category,R
+Phenomena and Processes Category,G
+Psychiatry and Psychology Category,F
+Publication Type Category [Publication Type],V
+Subheadings Category,Y
+Technology and Food and Beverages Category,J
+Anesthesia and Analgesia,D000760,E03
+Analgesia,D000698,E03.091
+Anesthesia,D000758,E03.155
+Anesthesia Recovery Period,D000762,"E03.160, E04.614.750.055, N02.421.585.753.750.055"
+Conscious Sedation,D016292,E03.250
+Deep Sedation,D054810,E03.295
+Electronarcosis,D004580,E03.340
+"Hypotension, Controlled",D007023,E03.545
+Neuromuscular Blockade,D019148,"E03.706, E05.635"
+Preanesthetic Medication,D011229,"E02.760.731.775.750, E03.806, E04.604.750.619, N02.421.585.722.775.750"

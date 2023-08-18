@@ -1,0 +1,38 @@
+0卍All MeSH Categories※
+E卍Analytical, Diagnostic and Therapeutic Techniques and Equipment Category※
+A卍Anatomy Category※
+I卍Anthropology, Education, Sociology and Social Phenomena Category※
+X卍Check Tags Category※
+D卍Chemicals and Drugs Category※
+H卍Disciplines and Occupations Category※
+C卍Diseases Category※
+Z卍Geographical Locations Category※
+N卍Health Care Category※
+K卍Humanities Category※
+L卍Information Science Category※
+B卍Organisms Category※
+M卍Persons Category※
+R卍Pharmacological Actions Category※
+G卍Phenomena and Processes Category※
+F卍Psychiatry and Psychology Category※
+V卍Publication Type Category [Publication Type]※
+Y卍Subheadings Category※
+J卍Technology and Food and Beverages Category※
+E03卍Anesthesia and Analgesia※Analgesia and Anesthesia
+E03.091卍Analgesia※Analgesias
+E03.155卍Anesthesia※
+E03.160卍Anesthesia Recovery Period※Recovery Period, Anesthesia※Anesthesia Recovery Periods※Period, Anesthesia Recovery※Periods, Anesthesia Recovery※Recovery Periods, Anesthesia
+E04.614.750.055卍Anesthesia Recovery Period※Recovery Period, Anesthesia※Anesthesia Recovery Periods※Period, Anesthesia Recovery※Periods, Anesthesia Recovery※Recovery Periods, Anesthesia
+N02.421.585.753.750.055卍Anesthesia Recovery Period※Recovery Period, Anesthesia※Anesthesia Recovery Periods※Period, Anesthesia Recovery※Periods, Anesthesia Recovery※Recovery Periods, Anesthesia
+E03.250卍Conscious Sedation※Sedation, Moderate※Moderate Sedation※Sedation, Conscious
+E03.295卍Deep Sedation※Deep Sedations※Sedations, Deep※Sedation, Deep
+E03.340卍Electronarcosis※Electronarcoses※Electric Anesthesia※Electrosleep※Anesthesia, Electric※Anesthesias, Electric※Electric Anesthesias※Electroanesthesia※Electroanesthesias
+E03.545卍Hypotension, Controlled※Induced Hypotension※Hypotension, Induced※Controlled Hypotension
+E03.706卍Neuromuscular Blockade※Blockade, Neuromuscular※Neuromuscular Block※Block, Neuromuscular
+E05.635卍Neuromuscular Blockade※Blockade, Neuromuscular※Neuromuscular Block※Block, Neuromuscular
+E02.760.731.775.750卍Preanesthetic Medication※Medication, Preanesthetic※Medications, Preanesthetic※Preanesthetic Medications
+E03.806卍Preanesthetic Medication※Medication, Preanesthetic※Medications, Preanesthetic※Preanesthetic Medications
+E04.604.750.619卍Preanesthetic Medication※Medication, Preanesthetic※Medications, Preanesthetic※Preanesthetic Medications
+N02.421.585.722.775.750卍Preanesthetic Medication※Medication, Preanesthetic※Medications, Preanesthetic※Preanesthetic Medications
+E06卍Dentistry※
+H02.163卍Dentistry※
